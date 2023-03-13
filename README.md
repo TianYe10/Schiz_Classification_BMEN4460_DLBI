@@ -89,6 +89,6 @@ It is a standard command line that has been modified and used for years by multi
 
 Please disregard any codes related to 'DeepC' or 'AI-CBV'. We are starting with using only structral T1w MRI for classification. CBV input as the functional map of T1w images is a good next step for novelty in this research project. To know more about DeepC and CBV (cerebral blood volume), please read this good paper in 2020: https://ieeexplore.ieee.org/abstract/document/9098323.
 
-I understand all these codes can be a lot, and very long to you if you are new to Python or deep learning. Please try to debug by yourself and Google solutions if errors pop up - this is how you quickly improve! Then you can discuss with teammates and ask your tutor / TA / professor.
+I understand all these codes can be a lot, and very long to you if you are new to Python or deep learning. Please relax, and try to debug by yourself and Google solutions if errors pop up - this is how you quickly improve! Then you can discuss with teammates and ask your tutor / TA / professor. As long as you try your best to run codes and push the project, you will be fine!
 
 (Your project tutor: Ye Tian (yt2793@columbia.edu)
