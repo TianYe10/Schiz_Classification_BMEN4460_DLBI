@@ -32,7 +32,7 @@ This kinds of GPU errors can pop up differently for different laptops and Google
 
 ### main_10fold.py ###
 
-The only .py file you need to run using the command in command.sh. It imports the dataloader, runs the main functions (and saves the trained model).
+The only .py file you need to run using the command in command.sh. It imports the dataloader and the model, runs the main functions (and saves the trained model).
 
 Please change the data path to where you save all ten folds of your MRI data! (there is a upper-cased notice at where you need to change the path)
 
@@ -46,4 +46,9 @@ You can loaded a pre-trained model, or train a new model. The models for option 
 
 ### GlobalLocalTransformer3D_multiscale.py ###
 
+The 3D Multi-scale Transformer (MST) model code.
+
 To undersnad the Multi-Scale Transformer better, read the [abstract](https://github.com/TianYe10/Schiz_Classification_BMEN4460_DLBI/blob/main/Improving%20Across-Dataset%20Schizophrenia%20Classification%20with%20Structural%20Brain%20MRI%20Using%20Multi-scale%20Transformer.pdf)!
+
+All unnecessary codes are commented out to save your time. If you want to modify the structure, you may want to take a deep look at line 204 ~ 381.
+
