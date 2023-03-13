@@ -72,4 +72,4 @@ As mentioned above, if you want to use a 3D vgg model, you need to look at this 
 
 The options for different kinds of VGGs include:  'VGG', 'vgg6_bn', 'vgg11', 'vgg11_bn', 'vgg13', 'vgg13_bn', 'vgg16', 'vgg16_bn',  'vgg19_bn', 'vgg19'.
 
-If you want to learn more about deep learning (even beyond this class), it is highly recommended to be very familiar with vgg models and how it is coded up in Python.
+If you want to learn more about deep learning (even beyond this class), it is highly recommended to be very familiar with vgg models and how it is coded up in Python. This code file by itself can be an excellent referable resource.
