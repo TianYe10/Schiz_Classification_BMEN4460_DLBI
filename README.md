@@ -17,6 +17,8 @@ All required source codes and commands are saved in this repositor, including:
 
 **command.sh** (command instruction file, not code)
 
+**Improving Across-Dataset Schizophrenia Classification with Structural Brain MRI Using Multi-scale Transformer.pdf** (the model raw abstract to help you understand the whole project, optional reading material) (Abstract is accepted by ISMRM 2023 and is going to be published in June)
+
 If you are familiar with deep learning pipelines and have Python coding experience, you should have no trouble understanding the codes on your own. If you do need help implementing them, please see the instructions for each file below:
 
 
@@ -35,3 +37,13 @@ The only .py file you need to run using the command in command.sh. It imports th
 Please change the data path to where you save all ten folds of your MRI data! (there is a upper-cased notice at where you need to change the path)
 
 Please modify the 'device' variable based on how you set up / name your cuda!
+
+Please take a thorough look into all the 'parser.add_argument' to have a basic idea of what arguments and parameters we have (and we can change).
+
+You can loaded a pre-trained model, or train a new model. The models for option are:
+1. 'GlobalLocalBrainAge', the transformer-based model, as default.  
+2. VGG model, commented out for now.
+
+### GlobalLocalTransformer3D_multiscale.py ###
+
+To undersnad the Multi-Scale Transformer better, read the [abstract](https://github.com/TianYe10/Schiz_Classification_BMEN4460_DLBI/blob/main/Improving%20Across-Dataset%20Schizophrenia%20Classification%20with%20Structural%20Brain%20MRI%20Using%20Multi-scale%20Transformer.pdf)!
