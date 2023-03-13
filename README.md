@@ -54,4 +54,4 @@ All unnecessary codes are commented out to save your time. If you want to modify
 
 ### vgg3D_for_transformer.py ###
 
-This is the vgg backbone for 3D MST model! Please leave this file as it be, don't touch it. It's similar to the actual vgg.py model, but again, it just serves for GlobalLocalTransformer3D_multiscale.py, and is not the file you want to import for vgg. To import vgg, you will import from vgg.py.
+This is the vgg backbone for 3D MST model! Please leave this file as it be, don't touch it. It's similar to the actual vgg.py model, but again, it just serves for GlobalLocalTransformer3D_multiscale.py, and is not the file you want to import for vgg. T***o import vgg, you will import from vgg.py.***
