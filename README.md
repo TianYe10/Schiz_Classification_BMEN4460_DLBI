@@ -79,5 +79,7 @@ If you want to learn more about deep learning (even beyond this class), it is hi
 
 You should be able to open it using any text reader / editor. It gives you an example of running command.
 
-Though it looks long, the major body is just 'python main_10fold.py'. All following words are how you name and define your model saving path (which is also very important, you need to modify it according to your own laptop / Colab path), parameters such as batch_size, learning rate, cuda index, etc.
+Though it looks long, the major body is just 'python main_10fold.py'. All following words are how you name and define your model saving path and log path (which is also very important, you need to modify it according to your own laptop / Colab path), parameters such as batch_size, learning rate, cuda index, etc.
+
+It is a standard command line that has been modified and used for years by multiple lab members
 
