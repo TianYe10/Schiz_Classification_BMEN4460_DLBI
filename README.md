@@ -30,5 +30,5 @@ This kinds of GPU errors can pop up differently for different laptops and Google
 
 ### main_10fold.py ###
 The only .py file you need to run using the command in command.sh. It imports the dataloader, runs the main functions (and saves the trained model).
-Please change the data path to where you save all ten folds of your MRI data!
+Please change the data path to where you save all ten folds of your MRI data! (there is a upper-cased notice at where you need to change the path)
 Please modify the 'device' variable based on how you set up / name your cuda!
