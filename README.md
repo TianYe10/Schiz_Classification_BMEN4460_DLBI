@@ -65,3 +65,6 @@ You can play around with the crop size of 3D MRI images, the downsampling option
 
 The dataloader now loads 'COBRE','BrainGluSchi' and 'NMorph' three specific datasets among all ten folds. But you can change this too (e.g. load another MCIC dataset).
 
+### vgg.py ###
+
+As mentioned above, if you want to use a 3D vgg model, you need to look at this file (and uncomment ['import vgg'](https://github.com/TianYe10/Schiz_Classification_BMEN4460_DLBI/blob/3a8a1d596342136bb5e7cd3570cca7866f2e9ab4/main_10fold.py#L20) in the main file)
