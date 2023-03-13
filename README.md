@@ -67,4 +67,5 @@ The dataloader now loads 'COBRE','BrainGluSchi' and 'NMorph' three specific data
 
 ### vgg.py ###
 
-As mentioned above, if you want to use a 3D vgg model, you need to look at this file (and uncomment ['import vgg'](https://github.com/TianYe10/Schiz_Classification_BMEN4460_DLBI/blob/3a8a1d596342136bb5e7cd3570cca7866f2e9ab4/main_10fold.py#L20) in the main file)
+As mentioned above, if you want to use a 3D vgg model, you need to look at this file 
+(and uncomment ['import vgg'](https://github.com/TianYe10/Schiz_Classification_BMEN4460_DLBI/blob/3a8a1d596342136bb5e7cd3570cca7866f2e9ab4/main_10fold.py#L20),['model_names' variable](https://github.com/TianYe10/Schiz_Classification_BMEN4460_DLBI/blob/f39eccb487a5af33298b6d6efda56dad7815886f/main_10fold.py#L32), ['--arch' argument](https://github.com/TianYe10/Schiz_Classification_BMEN4460_DLBI/blob/f39eccb487a5af33298b6d6efda56dad7815886f/main_10fold.py#L54) and [model initiation / definition](https://github.com/TianYe10/Schiz_Classification_BMEN4460_DLBI/blob/f39eccb487a5af33298b6d6efda56dad7815886f/main_10fold.py#L166) in the main file)
