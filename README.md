@@ -52,3 +52,6 @@ To undersnad the Multi-Scale Transformer better, read the [abstract](https://git
 
 All unnecessary codes are commented out to save your time. If you want to modify the structure, you may want to take a deep look at line [204](https://github.com/TianYe10/Schiz_Classification_BMEN4460_DLBI/blob/83ed0b675615844ab313e5f7bbc98bb37b8ef26d/GlobalLocalTransformer3D_multiscale.py#L204) ~ 381.
 
+### vgg3D_for_transformer.py ###
+
+This is the vgg backbone for 3D MST model! Please leave this file as it be, don't touch it. It's similar to the actual vgg.py model, but again, it just serves for GlobalLocalTransformer3D_multiscale.py, and is not the file you want to import for vgg. To import vgg, you will import from vgg.py.
