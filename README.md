@@ -51,7 +51,7 @@ The 3D Multi-scale Transformer (MST) model code.
 
 To undersnad the Multi-Scale Transformer better, read the [abstract](https://github.com/TianYe10/Schiz_Classification_BMEN4460_DLBI/blob/main/Improving%20Across-Dataset%20Schizophrenia%20Classification%20with%20Structural%20Brain%20MRI%20Using%20Multi-scale%20Transformer.pdf)! Especially the figure 1!
 
-All unnecessary codes are commented out to save your time. If you want to modify the structure, you may want to take a deep look at line [204](https://github.com/TianYe10/Schiz_Classification_BMEN4460_DLBI/blob/83ed0b675615844ab313e5f7bbc98bb37b8ef26d/GlobalLocalTransformer3D_multiscale.py#L204) ~ 381.
+All unnecessary codes are commented out to save your time. If you want to modify the structure, you may want to take a deeper look at line [204](https://github.com/TianYe10/Schiz_Classification_BMEN4460_DLBI/blob/83ed0b675615844ab313e5f7bbc98bb37b8ef26d/GlobalLocalTransformer3D_multiscale.py#L204) ~ 381.
 
 ### vgg3D_for_transformer.py ###
 
