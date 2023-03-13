@@ -4,6 +4,7 @@
 ## Project name: Schizophrenia MRI Classification Using Deep Learning
 
 All required source codes and commands are saved in this repositor, including:
+
 **main_10fold.py**
 
 **data_loader_10fold.py**
@@ -15,3 +16,5 @@ All required source codes and commands are saved in this repositor, including:
 **vgg.py**
 
 **command.sh** (command instruction file, not code)
+
+If you are familiar with deep learning pipelines and have Python coding experience, you should have no trouble understanding the codes on your own. If you do need help implementing them, please see the instructions for each file below:
