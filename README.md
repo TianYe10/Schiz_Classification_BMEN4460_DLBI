@@ -18,3 +18,7 @@ All required source codes and commands are saved in this repositor, including:
 **command.sh** (command instruction file, not code)
 
 If you are familiar with deep learning pipelines and have Python coding experience, you should have no trouble understanding the codes on your own. If you do need help implementing them, please see the instructions for each file below:
+
+
+### main_10fold.py ###
+The only .py file you need to run using the command in command.sh
