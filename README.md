@@ -54,4 +54,14 @@ All unnecessary codes are commented out to save your time. If you want to modify
 
 ### vgg3D_for_transformer.py ###
 
-This is the vgg backbone for 3D MST model! Please leave this file as it be, don't touch it. It's similar to the actual vgg.py model, but again, it just serves for GlobalLocalTransformer3D_multiscale.py, and is not the file you want to import for vgg. T***o import vgg, you will import from vgg.py.***
+This is the vgg backbone for 3D MST model! Please leave this file as it be, don't touch it. It's similar to the actual vgg.py model, but again, it just serves for GlobalLocalTransformer3D_multiscale.py, and is not the file you want to import for vgg. ***To import vgg, you will import from vgg.py.***
+
+
+### data_loader_10fold.py ###
+
+Another important code file you want to go through other than the main_10fold.py. Two most important functions in it is the [__init__](https://github.com/TianYe10/Schiz_Classification_BMEN4460_DLBI/blob/efbe48ced140878aa04d2dfeaf1ac74b8923b0f2/data_loader_10fold.py#L18), and [_getitem_](https://github.com/TianYe10/Schiz_Classification_BMEN4460_DLBI/blob/efbe48ced140878aa04d2dfeaf1ac74b8923b0f2/data_loader_10fold.py#L254). (Probably for most other pytorch dataloaders too)
+
+You can play around with the crop size of 3D MRI images, the downsampling option, the normalization methods etc. here in this file. 
+
+The dataloader now loads 'COBRE','BrainGluSchi' and 'NMorph' three specific datasets among all ten folds. But you can change this too (e.g. load another MCIC dataset)).
+
