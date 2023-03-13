@@ -63,5 +63,5 @@ Another important code file you want to go through other than the main_10fold.py
 
 You can play around with the crop size of 3D MRI images, the downsampling option, the normalization methods etc. here in this file. 
 
-The dataloader now loads 'COBRE','BrainGluSchi' and 'NMorph' three specific datasets among all ten folds. But you can change this too (e.g. load another MCIC dataset)).
+The dataloader now loads 'COBRE','BrainGluSchi' and 'NMorph' three specific datasets among all ten folds. But you can change this too (e.g. load another MCIC dataset).
 
