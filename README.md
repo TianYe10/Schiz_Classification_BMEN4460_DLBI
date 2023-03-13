@@ -29,6 +29,9 @@ The .py codes used to be runned on the server with a cuda GPU. If you are utiliz
 This kinds of GPU errors can pop up differently for different laptops and Google account situations. Please first try to solve it on your own, as this problem may happen all the time when you are running any machine learning codes, even beyond our course.
 
 ### main_10fold.py ###
+
 The only .py file you need to run using the command in command.sh. It imports the dataloader, runs the main functions (and saves the trained model).
+
 Please change the data path to where you save all ten folds of your MRI data! (there is a upper-cased notice at where you need to change the path)
+
 Please modify the 'device' variable based on how you set up / name your cuda!
