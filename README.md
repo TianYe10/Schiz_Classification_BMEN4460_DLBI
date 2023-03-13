@@ -40,9 +40,10 @@ Please modify the 'device' variable based on how you set up / name your cuda!
 
 Please take a thorough look into all the 'parser.add_argument' to have a basic idea of what arguments and parameters we have (and we can change).
 
-You can loaded a pre-trained model, or train a new model. The models for option are:
+You can loaded a pre-trained model, or train a new model. The models can be but not limited to:
 1. 'GlobalLocalBrainAge', the transformer-based model, as default.  
 2. VGG model, commented out for now.
+
 
 ### GlobalLocalTransformer3D_multiscale.py ###
 
